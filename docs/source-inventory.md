@@ -20,3 +20,15 @@ The original mean-reversion notebooks and rate-clustering work provide backgroun
 ## Editorial notes
 
 Links point to original publications rather than republishing the text. Coauthored work and publication dates should retain their attribution. The saved Medium profile truncates at least one title; check the original before editorial use. The archive is a documented starting inventory, not a claim that every post or source has been discovered.
+
+
+## Reconciliation and outstanding sources
+
+Checked 17 November 2026 against the saved Medium profile and the earlier local research inventory. `archive.json` contains 44 distinct links: 30 Medium articles, seven Lamat blog entries, five historical notebooks and two historical repositories. The 42 article and notebook entries in the review correspond to entries in the archive. One uses a different link for the same Medium article identifier: [Giving a Worm’s Brain to a Trading Robot](https://medium.datadriveninvestor.com/giving-a-worms-brain-to-a-trading-robot-d55abccb4e8b) was also listed under the author’s Medium domain. This link reconciliation does not prove every link or article body was independently checked.
+
+- The saved Medium profile is a snapshot, not an account export. Compare it with an author export or another complete publication list if available; additional articles may be missing.
+- Some article bodies were inaccessible during the original review; individual full-text access was not recorded systematically. Treat entries as metadata-only unless a separate full-text review is documented.
+- Confirm the full title of the truncated 18 April 2023 Mini DAO article and verify credits and rights before republishing. Known coauthors appear in archive previews where visible; check originals for other contributors.
+- The seven Lamat blog links reflect the archive observed earlier. The blog archive was inaccessible to the research tool on 17 November 2026; additional pages and full-text access remain unverified.
+- Notebook source and narrative were reviewed, but notebooks were not executed. Original publication dates and data availability remain unverified. The two `gjlr2000` links were supplied by the owner.
+- Keep publication dates distinct from notebook revision dates. Preserve separate Medium and Lamat versions until content and attribution have been compared.
