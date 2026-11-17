@@ -46,4 +46,6 @@ The source-of-truth list for the 15 post URLs is `apps/web/archive.json` entries
 
 ## Verification status
 
-Only the public inventory and the preceding local preview checks are complete. No staging environment, migration, redirect configuration, owner review, comprehensive accessibility audit or launch has been performed. The task remains In Progress until the owner decisions, reviewed plan and staging checks required by the issue are complete.
+The merged local preview was served on loopback and checked in the in-app browser. On the homepage, the first Tab focused the skip link, activating it moved to the main section, and the next Tab reached the first main-content link. At 320 CSS pixels, both the homepage and archive had document width equal to viewport width; the archive displayed 52 entries. The archive also had no horizontal overflow at 768 CSS pixels. These are targeted local checks, not a complete accessibility audit or a substitute for a screen-reader, zoom, contrast, mobile-device, or cross-browser review.
+
+Only the public inventory and local preview checks are complete. No hosted staging environment, migration, redirect configuration, owner review, comprehensive accessibility audit or launch has been performed. The task remains In Progress until the owner decisions, reviewed plan and staging checks required by the issue are complete.
