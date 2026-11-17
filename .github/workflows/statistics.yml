@@ -1,0 +1,21 @@
+name: Optional statistics research
+on:
+  push:
+  pull_request:
+jobs:
+  statistics:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install optional statistics libraries
+        run: python -m pip install -r packages/quant-research/requirements-statistics.txt
+      - name: Run discovery tests and example
+        run: |
+          PYTHONPATH=packages/quant-research/src python -m unittest discover -s packages/quant-research/statistics-tests
+          PYTHONPATH=packages/quant-research/src python examples/mean_reversion_discovery.py
