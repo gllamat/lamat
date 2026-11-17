@@ -1,0 +1,12 @@
+{
+  "provenance": "synthetic hand-authored examples",
+  "description": "Illustrative labels, not actual Reddit posts or a representative benchmark.",
+  "records": [
+    {"date":"2021-02-01","text":"$GME reports profit growth.","entities":["GME"],"sentiment":"positive"},
+    {"date":"2021-02-01","text":"$AMC reports a loss.","entities":["AMC"],"sentiment":"negative"},
+    {"date":"2021-02-01","text":"YOLO, HOLD through the week.","entities":[],"sentiment":"neutral"},
+    {"date":"2021-02-01","text":"$GME did not report a loss.","entities":["GME"],"sentiment":"positive"},
+    {"date":"2021-02-01","text":"AMC reports profit growth.","entities":["AMC"],"sentiment":"positive"},
+    {"date":"2020-12-31","text":"$AMC reports profit growth.","entities":[],"sentiment":"positive"}
+  ]
+}
