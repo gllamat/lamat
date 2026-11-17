@@ -57,7 +57,26 @@ The two URLs for *Giving a Worm’s Brain to a Trading Robot* have the same Medi
 
 The LSTM article links to additional sources not in the 44-entry archive: [Writing like Cervantes](https://medium.com/@gjlr2000/writing-like-cervantes-61a63c964d82), [rates clustering](https://medium.com/@gjlr2000/rates-clustering-611a3af9b294), and a [US rates LSTM notebook](https://colab.research.google.com/gist/gjlr2000/6954900a0f6500bbe41867bb5b2ed140/lstm-ts-us-rates-prediction.ipynb). The AI in Finance article also links to an earlier [Calling AI’s bluff](https://medium.com/@gjlr2000/calling-ais-bluff-9ef275943168). These are candidate historical sources, not yet verified as distinct publications or assigned dates; confirm authorship, date, accessibility and any overlap before adding them to the chronological archive.
 
-The [gjlr2000 gist index](https://gist.github.com/gjlr2000) displayed a count of 16 in a cached listing, although only two of its notebooks were supplied for the earlier inventory. The first page lists crypto-options, crypto-swans, FX mean reversion, credit explainability, sentiment, rates prediction and mean-reversion examples alongside QTrader and DeepQ. The second page and individual ownership, dates and overlap have not been verified. Treat these as discovery leads, not as 16 newly verified works or automatically approved website entries.
+The [gjlr2000 gist index](https://gist.github.com/gjlr2000) shows 16 entries across two pages. The listing identifies the account and creation dates; it does not by itself establish individual authorship, whether versions overlap, or suitability for the website. The user supplied QTrader and DeepQ from this account, and the Lamat LSTM article links to the rates notebook. All others are leads requiring attribution and content review. Dates below are creation dates shown in the listing, not necessarily publication or revision dates.
+
+| Created | Notebook listing | Review lead |
+| --- | --- | --- |
+| 2019-04-25 | [smile-crypto-options](https://gist.github.com/gjlr2000/37e8319316737109a016b30729d34db3) | Compare with corresponding 2019 article |
+| 2019-03-07 | [black-crypto-swans](https://gist.github.com/gjlr2000/bef7480a4323463d64883d82c39fe3e6) | Compare with corresponding 2019 article |
+| 2018-09-12 | [fiatccy-mean-reversion](https://gist.github.com/gjlr2000/1b1a385ffaf7b28e13a2604b9ca9f543) | Compare with FX article |
+| 2018-07-18 | [DeepQ Trader](https://gist.github.com/gjlr2000/62561e11e1044aa5d06e7abe2b757522) | Already inventoried; 2018-07-19 above is an inspected revision date |
+| 2018-06-27 | [QTrader](https://gist.github.com/gjlr2000/15da1e50cebf856cdcea9adfdd655d31) | Already inventoried; 2018-06-29 above is an inspected revision date |
+| 2018-06-05 | [FICO explainability](https://gist.github.com/gjlr2000/ddb1b81c42f136fa235316103313408d) | Verify attribution and content |
+| 2018-06-01 | [LSTM rates](https://gist.github.com/gjlr2000/6954900a0f6500bbe41867bb5b2ed140) | Linked from Lamat article; verify original context |
+| 2018-05-16 | [sentiment analysis](https://gist.github.com/gjlr2000/da7142d7fff9ddebadcd3d31a15af18b) | Compare with later sentiment work |
+| 2018-05-15 | [meanreversiontutorial_4_azur](https://gist.github.com/gjlr2000/8ee782c374b4b014674b635668d09d5c) | Compare tutorial versions |
+| 2018-05-15 | [meanreversiontutorial](https://gist.github.com/gjlr2000/6c1b4e63e233bdff9b235fc2fb81e77f) | Compare tutorial versions |
+| 2018-05-15 | [meanreversiontutorial_2_j](https://gist.github.com/gjlr2000/412f445c83afc5de0146da1837283bd0) | Compare tutorial versions |
+| 2018-05-14 | [creditcardfraud](https://gist.github.com/gjlr2000/b1231aa441e4d5cb2265edde2ba73118) | Compare with earlier fraud notebook |
+| 2018-05-11 | [CreditCardFraud](https://gist.github.com/gjlr2000/65e37c2e1bce8095874b8e16e11e06f2) | Compare with later fraud notebook |
+| 2018-04-27 | [RatesClustering](https://gist.github.com/gjlr2000/34fe79e33b752372d783c2be97339935) | Compare with rates-clustering article |
+| 2018-04-25 | [MeanReversionTutorial_4](https://gist.github.com/gjlr2000/cc1a484b55275fc05a62dd6bb78387ab) | Compare tutorial versions |
+| 2018-04-25 | [MeanReversionTutorial_3](https://gist.github.com/gjlr2000/ba8f35a1e278549247e3c32327271bf0) | Compare tutorial versions |
 
 - Check each entry's date and author/contributor attribution against the original full text or an authoritative export; title previews can be truncated.
 - Follow redirects in a regular browser and verify the intended page, especially where the research tool could not retrieve content; do not treat access restrictions as proof of a broken link.
