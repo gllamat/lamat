@@ -13,7 +13,7 @@ PYTHONPATH=packages/quant-research/src python3 examples/mean_reversion.py
 PYTHONPATH=packages/quant-research/src python3 -m unittest discover -s packages/quant-research/tests
 ```
 
-See [the methodology](docs/mean-reversion.md) and [the source inventory](docs/source-inventory.md). The example does not use current market data and makes no performance claim.
+See [the methodology](docs/mean-reversion.md), [the source inventory](docs/source-inventory.md), and [the historical archive](apps/web/archive.html). The archive can be regenerated with `python3 scripts/build_archive.py`. The example does not use current market data and makes no performance claim.
 
 ## Local website preview
 
