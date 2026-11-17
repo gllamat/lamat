@@ -13,3 +13,11 @@ Working decisions, 17 November 2026. The public repository and website must not 
 | Proposed current client work or consulting case studies | Withhold pending specific owner approval | Confirm the project, description, client consent and permitted evidence before adding it to the site. |
 
 These are conservative working decisions, not a legal determination or an assertion that a private project is approved for disclosure. Do not add private source material to a public branch or pull request. Record any later approval at the level of the specific name, description, image, code or dataset being released.
+
+## Decisions for currently proposed material
+
+- **MeanReversion and Intelligence-Amplification:** link the public repositories as dated historical research; descriptions must distinguish the new synthetic examples from the historical work and its obsolete data services.
+- **QTrader and Deep Q Trader:** link the owner-supplied public notebooks as historical teaching experiments; do not represent simulations as current products or evidence of trading performance.
+- **Reddit, sentiment and LSTM gists:** link the public notebooks as historical experiments; verify data rights before reusing datasets or output.
+- **Medium and Lamat articles:** link original publications with dates and available attribution; do not automatically republish full text or images.
+- **Unannounced private or client case studies:** do not publish names, descriptions, screenshots, data or code unless the owner approves each specific item and any required third-party consent has been obtained.
