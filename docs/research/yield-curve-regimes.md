@@ -2,6 +2,8 @@
 
 The original [rates clustering notebook](https://github.com/gllamat/Intelligence-Amplification) explored PCA and clustering as an example of intelligence amplification. The example here is a new, explicitly **synthetic** demonstration. It does not reproduce that notebook's market results, fetch historical data, or identify actual central-bank regimes.
 
+![Synthetic yield-curve PCA and cluster chart](assets/yield-curve-regimes.png)
+
 ## Method
 
 We generate 180 daily three-tenor curves in percent per annum using seeded level, slope, curvature and noise processes. The first 120 observations (1 January–29 April 2020) are training; the last 60 (30 April–28 June 2020) are held out. Dates are illustrative calendar dates, not a business-day market calendar.

@@ -5,7 +5,7 @@
 ## Deliverables
 
 - [Methodology and reproducible commands](../research/yield-curve-regimes.md).
-- [Research model](../../packages/quant-research/src/lamat_quant/regimes.py), [synthetic example and chart](../../examples/yield_curve_regimes.py), and [tests](../../packages/quant-research/regime_tests/test_regimes.py).
+- [Generated chart](../research/assets/yield-curve-regimes.png) and [research model](../../packages/quant-research/src/lamat_quant/regimes.py), [synthetic example and chart](../../examples/yield_curve_regimes.py), and [tests](../../packages/quant-research/regime_tests/test_regimes.py).
 - Separate optional `regimes` dependencies and CI workflow; the original standard-library example remains independent.
 
 The model fits standardization, PCA and k-means on training rows only, then applies the frozen objects to held-out rows. The synthetic chart shows PCA-space assignments and an explicit chronological split. It is a retrospective visual, not a trading recommendation, market observation or claim that stable economic regimes exist.
