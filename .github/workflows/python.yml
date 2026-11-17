@@ -6,7 +6,8 @@ on:
 
 jobs:
   research:
-    runs-on: ubuntu-latest
+    # Ubuntu 26.04 does not provide a Python 3.9 build to setup-python.
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         python-version: ['3.9', '3.13']
