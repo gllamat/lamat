@@ -96,9 +96,33 @@
     "preview": "Collateralized Loans"
   },
   {
+    "date": "2022-01-21",
+    "title": "Swaptions",
+    "url": "https://lamatuk.com/2022/01/21/swaptions/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2021-12-14",
+    "title": "Mexican Swaps",
+    "url": "https://lamatuk.com/2021/12/14/mexican-swaps/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
     "date": "2021-12-13",
     "title": "Agnostic Crypto Allocation",
     "url": "https://lamatuk.com/2021/12/13/agnostic-crypto-allocation/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2021-09-22",
+    "title": "Inflation Swaps",
+    "url": "https://lamatuk.com/2021/09/22/inflation-swaps/",
     "kind": "Lamat blog",
     "date_note": "Published",
     "preview": ""
@@ -148,7 +172,15 @@
     "title": "ITAM Reddit example",
     "url": "https://gist.github.com/gllamat/d87c1ca46a73e17499f0368c5db31101",
     "kind": "Historical notebook",
-    "date_note": "Last revision inspected",
+    "date_note": "Gist created",
+    "preview": ""
+  },
+  {
+    "date": "2021-03-02",
+    "title": "ETF component liquidity",
+    "url": "https://lamatuk.com/2021/03/02/etf-component-liquidity/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
     "preview": ""
   },
   {
@@ -160,11 +192,19 @@
     "preview": "Using the code published in (Demystifying) Sentiment Analysis in Finance I developed an automatic script that reads the ‘hot’ posts in…"
   },
   {
+    "date": "2021-02-12",
+    "title": "Reddit Analysis",
+    "url": "https://lamatuk.com/2021/02/12/reddit-analysis/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
     "date": "2021-02-01",
     "title": "Reddit scraping and NLTK",
     "url": "https://gist.github.com/gllamat/867075b3d482f82245f621f4ccda6aa8",
     "kind": "Historical notebook",
-    "date_note": "Last revision inspected",
+    "date_note": "Gist created",
     "preview": ""
   },
   {
@@ -172,13 +212,37 @@
     "title": "Sentiment Analysis in Finance notebook",
     "url": "https://gist.github.com/gllamat/ae758bc22f2cb5de621d893ba7b6769e",
     "kind": "Historical notebook",
-    "date_note": "Last revision inspected",
+    "date_note": "Gist created",
     "preview": ""
   },
   {
     "date": "2021-01-29",
     "title": "Sentiment Analysis in Finance",
     "url": "https://lamatuk.com/2021/01/29/sentiment-analysis-in-finance/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2021-01-26",
+    "title": "Option networking",
+    "url": "https://lamatuk.com/2021/01/26/option-networking/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2020-12-02",
+    "title": "FX SDR-SEC",
+    "url": "https://lamatuk.com/2020/12/02/financial-data-mining-public-2/",
+    "kind": "Lamat blog",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2020-11-29",
+    "title": "Fixed Income SDR",
+    "url": "https://lamatuk.com/2020/11/29/market-flies/",
     "kind": "Lamat blog",
     "date_note": "Published",
     "preview": ""
@@ -312,19 +376,11 @@
     "preview": "DQ Trader"
   },
   {
-    "date": "2018-07-19",
+    "date": "2018-07-18",
     "title": "Deep Q Trader notebook",
     "url": "https://colab.research.google.com/gist/gjlr2000/62561e11e1044aa5d06e7abe2b757522/deepq_trader_public.ipynb",
     "kind": "Historical notebook",
-    "date_note": "Last revision inspected",
-    "preview": ""
-  },
-  {
-    "date": "2018-06-29",
-    "title": "QTrader notebook",
-    "url": "https://colab.research.google.com/gist/gjlr2000/15da1e50cebf856cdcea9adfdd655d31/qtrader.ipynb",
-    "kind": "Historical notebook",
-    "date_note": "Last revision inspected",
+    "date_note": "Gist created",
     "preview": ""
   },
   {
@@ -334,6 +390,14 @@
     "kind": "Medium article",
     "date_note": "Published",
     "preview": "In AI we are witnessing a variation of the Argumentum ad lunam:"
+  },
+  {
+    "date": "2018-06-27",
+    "title": "QTrader notebook",
+    "url": "https://colab.research.google.com/gist/gjlr2000/15da1e50cebf856cdcea9adfdd655d31/qtrader.ipynb",
+    "kind": "Historical notebook",
+    "date_note": "Gist created",
+    "preview": ""
   },
   {
     "date": "2018-04-27",
