@@ -2,11 +2,11 @@
 
 **Checked:** 17 November 2026. **Status:** In progress; individual authorship, source dates and redirects are not yet fully verified.
 
-The archive contains 44 entries: 30 Medium articles, seven Lamat posts, five historical notebooks and two historical repositories. The table records whether the research tool retrieved a page; responses may be cached, blocked, generic, or unavailable to this tool. An unsuccessful retrieval does **not** establish that a link is broken. A retrieved page does not by itself establish full-text access or verify every author, date or redirect. Original profile snapshot metadata and separate publication versions are retained pending verification.
+The archive contains 44 entries: 30 Medium articles, seven Lamat posts, five historical notebooks and two historical repositories. The table records research-tool results and selected direct browser checks; research-tool responses may be cached, blocked, generic, or unavailable to that tool. An unsuccessful retrieval does **not** establish that a link is broken. A retrieved page does not by itself establish full-text access or verify every author, date or redirect. Original profile snapshot metadata and separate publication versions are retained pending verification.
 
 The two URLs for *Giving a Worm’s Brain to a Trading Robot* have the same Medium article ID; the archive uses the Data Driven Investor address. Similar Medium and Lamat articles remain separate entries until their content and attribution are compared. Notebook dates represent inspected revision dates, not confirmed publication dates. Additional work may be missing from the saved profile snapshot. Private work remains outside this public archive.
 
-| Date recorded | Source | Research-tool result |
+| Date recorded | Source | Availability check |
 | --- | --- | --- |
 | 2025-06-16 | [Will AI Take My Job? Adapting Startups for the Future](https://lamatuk.medium.com/will-ai-take-my-job-adapting-startups-for-the-future-20ecc4e3577a) | Profile/limited page retrieved; article body unverified |
 | 2025-01-07 | [Will AI take my job ?](https://lamatuk.medium.com/will-ai-take-my-job-269ecd30bcdd) | Profile/limited page retrieved; article body unverified |
@@ -32,10 +32,10 @@ The two URLs for *Giving a Worm’s Brain to a Trading Robot* have the same Medi
 | 2021-01-29 | [Sentiment Analysis in Finance notebook](https://gist.github.com/gllamat/ae758bc22f2cb5de621d893ba7b6769e) | Page retrieved by research tool; content and metadata not fully verified |
 | 2021-01-29 | [Sentiment Analysis in Finance](https://lamatuk.com/2021/01/29/sentiment-analysis-in-finance/) | Page retrieved by research tool; content and metadata not fully verified |
 | 2020-05-19 | [Data Science vs European Regulations](https://lamatuk.medium.com/data-science-vs-european-regulations-30c7022ca1f5) | Not retrieved; needs manual check |
-| 2020-05-16 | [Data Science vs European Regulations](https://lamatuk.com/2020/05/16/data-science-vs-european-regulations/) | Not retrieved; needs manual check |
-| 2020-04-07 | [Why Financial Time Series LSTM Prediction fails](https://lamatuk.com/2020/04/07/example-post/) | Not retrieved; needs manual check |
-| 2020-04-07 | [Calling AI’s bluff](https://lamatuk.com/2020/04/07/example-post-2/) | Not retrieved; needs manual check |
-| 2020-04-07 | [AI in Finance: Cutting Through the Hype (With Case Studies)](https://lamatuk.com/2020/04/07/example-post-3/) | Not retrieved; needs manual check |
+| 2020-05-16 | [Data Science vs European Regulations](https://lamatuk.com/2020/05/16/data-science-vs-european-regulations/) | Browser opened; heading, author handle and date match. Embedded presentation was not checked. |
+| 2020-04-07 | [Why Financial Time Series LSTM Prediction fails](https://lamatuk.com/2020/04/07/example-post/) | Browser opened; heading, author handle and date match. |
+| 2020-04-07 | [Calling AI’s bluff](https://lamatuk.com/2020/04/07/example-post-2/) | Browser opened; heading matches. Date and attribution remain to verify. |
+| 2020-04-07 | [AI in Finance: Cutting Through the Hype (With Case Studies)](https://lamatuk.com/2020/04/07/example-post-3/) | Browser opened; heading matches. Date and attribution remain to verify. |
 | 2019-07-29 | [Applications of AI for Finance:](https://lamatuk.medium.com/applications-of-ai-for-finance-a2e4a3eb8029) | Not retrieved; needs manual check |
 | 2019-05-08 | [Trading Mean Reversion:](https://lamatuk.medium.com/trading-mean-reversion-d72ced0d06a) | Not retrieved; needs manual check |
 | 2019-04-25 | [Why so Serious ? Smile Crypto Options!](https://lamatuk.medium.com/why-so-serious-smile-crypto-options-7b412096ec71) | Not retrieved; needs manual check |
@@ -54,6 +54,8 @@ The two URLs for *Giving a Worm’s Brain to a Trading Robot* have the same Medi
 | 2018-04-25 | [Mean Reversion repository](https://github.com/gllamat/MeanReversion) | Not retrieved; needs manual check |
 
 ## Remaining verification
+
+The LSTM article links to additional sources not in the 44-entry archive: [Writing like Cervantes](https://medium.com/@gjlr2000/writing-like-cervantes-61a63c964d82), [rates clustering](https://medium.com/@gjlr2000/rates-clustering-611a3af9b294), and a [US rates LSTM notebook](https://colab.research.google.com/gist/gjlr2000/6954900a0f6500bbe41867bb5b2ed140/lstm-ts-us-rates-prediction.ipynb). The AI in Finance article also links to an earlier [Calling AI’s bluff](https://medium.com/@gjlr2000/calling-ais-bluff-9ef275943168). These are candidate historical sources, not yet verified as distinct publications or assigned dates; confirm authorship, date, accessibility and any overlap before adding them to the chronological archive.
 
 - Check each entry's date and author/contributor attribution against the original full text or an authoritative export; title previews can be truncated.
 - Follow redirects in a regular browser and verify the intended page, especially where the research tool could not retrieve content; do not treat access restrictions as proof of a broken link.
