@@ -1,6 +1,6 @@
 # Lamat website brief — working draft
 
-Status: working brief, 17 November 2026. Audience, contact address and supplied logo files have been provided by the owner. Final design and navigation remain to be reviewed.
+Status: agreed direction, 17 November 2026. The owner supplied the logo, audience, contact address and navigation. Detailed design and individual project descriptions remain to be reviewed.
 
 ## Established direction
 
@@ -19,13 +19,13 @@ The existing home page has a white header, a bold dark LAMAT wordmark, a small g
 
 The existing public [home page](https://lamatuk.com/) describes Lamat as data science applied to finance. Its [contact page](https://lamatuk.com/contact/) lists an older address and form. Use the newly supplied address for the new site; do not assume the old form is still monitored.
 
-## Proposed structure
+## Agreed navigation
 
-Home; current work and services when confirmed; approach; historical writing, code and talks; about; contact. Archive entries should include date, source, contributors when verified, and a link to the original. This is a draft, subject to the owner's direction.
+Home; Work & Services; Approach; Historical Archive; About; Contact. Identify current projects and services when confirmed. Archive entries should include date, source, contributors when verified, and a link to the original.
 
 ## Decisions and assets still needed
 
 1. Confirm which current projects and consulting services may be named.
 2. Obtain a higher-resolution/vector logo or original colour specifications if available; the supplied images are sufficient to start a preview.
-3. Review proposed navigation and about-page information, and whether external links or permitted republication are preferred.
+3. Review about-page information, and whether external links or permitted republication are preferred.
 4. Inventory existing URLs, hosting, analytics and forms before migration; no domain or deployment change is implied by this draft.
