@@ -55,6 +55,16 @@ The two URLs for *Giving a Worm’s Brain to a Trading Robot* have the same Medi
 
 ## Remaining verification
 
+### Follow-up source and reproducibility checks
+
+On 17 November 2026, the GitHub repository connector confirmed that [MeanReversion](https://github.com/gllamat/MeanReversion) and [Intelligence-Amplification](https://github.com/gllamat/Intelligence-Amplification) are public repositories owned by `gllamat`. This confirms their existence and account ownership, not the creation dates or authorship of each contribution.
+
+A cached GitHub page for [QTrader](https://gist.github.com/gjlr2000/15da1e50cebf856cdcea9adfdd655d31) identifies the `gjlr2000` account and the notebook filename, but the notebook itself did not render in that retrieval. The page was cached and its “last active” date is not a publication or revision date. The current Colab link and original publication date remain unverified.
+
+Attempts to retrieve the two 2020 Lamat pages titled *Calling AI’s bluff* and *AI in Finance*, the candidate Medium pages *Rates clustering* and *Writing like Cervantes*, and several gist pages through the research tool were unsuccessful. These access results do not establish that the links are broken or resolve the attribution and duplicate questions.
+
+The archive branch's nine Python tests and synthetic example ran successfully; regenerating the 44-entry archive produced no changes. These checks validate reproducibility of the existing artifacts, not the accuracy or completeness of their historical metadata. The task remains in progress while the source checks below are outstanding.
+
 The LSTM article links to additional sources not in the 44-entry archive: [Writing like Cervantes](https://medium.com/@gjlr2000/writing-like-cervantes-61a63c964d82), [rates clustering](https://medium.com/@gjlr2000/rates-clustering-611a3af9b294), and a [US rates LSTM notebook](https://colab.research.google.com/gist/gjlr2000/6954900a0f6500bbe41867bb5b2ed140/lstm-ts-us-rates-prediction.ipynb). The AI in Finance article also links to an earlier [Calling AI’s bluff](https://medium.com/@gjlr2000/calling-ais-bluff-9ef275943168). These are candidate historical sources, not yet verified as distinct publications or assigned dates; confirm authorship, date, accessibility and any overlap before adding them to the chronological archive.
 
 The [gjlr2000 gist index](https://gist.github.com/gjlr2000) shows 16 entries across two pages. The listing identifies the account and creation dates; it does not by itself establish individual authorship, whether versions overlap, or suitability for the website. The user supplied QTrader and DeepQ from this account, and the Lamat LSTM article links to the rates notebook. All others are leads requiring attribution and content review. Dates below are creation dates shown in the listing, not necessarily publication or revision dates.
