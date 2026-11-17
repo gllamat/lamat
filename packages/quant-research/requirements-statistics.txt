@@ -1,0 +1,4 @@
+# Optional statistical research examples; pip resolves compatible builds per Python version.
+numpy>=1.26.4,<3
+scipy>=1.13,<2
+statsmodels>=0.14.4,<0.15
