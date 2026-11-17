@@ -1,0 +1,21 @@
+name: Yield curve regime example
+on:
+  push:
+  pull_request:
+jobs:
+  regimes:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install optional regime dependencies
+        run: python -m pip install './packages/quant-research[regimes]'
+      - name: Test training boundaries and data validation
+        run: python -m unittest discover -s packages/quant-research/regime_tests
+      - name: Generate synthetic chart
+        run: python examples/yield_curve_regimes.py --output /tmp/yield-curve-regimes.png
