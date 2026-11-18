@@ -20,7 +20,12 @@ for a in data:
             parts.append('</div></section>')
         year = date.year
         parts.append(f'<section id="archive-{year}" class="archive-year"><h2>{year}</h2><div>')
-    parts.append(f'''<article class="archive-item"><div><time datetime="{date.isoformat()}">{date.strftime('%d %b %Y')}</time><span>{esc(a['date_note'])} · {esc(a['kind'])}</span></div><a href="{esc(a['url'], quote=True)}">{esc(a['title'])}<span aria-hidden="true">↗</span></a></article>''')
+    related = ''.join(
+        f'<a href="{esc(link["url"], quote=True)}">{esc(link["label"])}</a>'
+        for link in a.get('related_links', [])
+    )
+    related = f'<div class="archive-related">{related}</div>' if related else ''
+    parts.append(f'''<article class="archive-item"><div><time datetime="{date.isoformat()}">{date.strftime('%d %b %Y')}</time><span>{esc(a['date_note'])} · {esc(a['kind'])}</span></div><a href="{esc(a['url'], quote=True)}">{esc(a['title'])}<span aria-hidden="true">↗</span></a>{related}</article>''')
 if year is not None:
     parts.append('</div></section>')
 parts.append('''</div></main><footer><div class="wrap footer-inner"><div><a class="brand" href="index.html"><img src="assets/lamat-logo-transparent.png" alt="" width="35" height="35"><span>LAMAT</span></a><p>Data science applied to finance.</p></div><div><span>BEGINNINGS &amp; GROWTH</span><a href="mailto:contact@lamat-qanil.com">Get in touch ↗</a></div></div></footer></body></html>''')
