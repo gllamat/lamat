@@ -400,6 +400,38 @@
     "preview": ""
   },
   {
+    "date": "2018-06-05",
+    "title": "Explainable AI — a Credit Rating Case Study",
+    "url": "https://lamatuk.medium.com/explaining-ai-a-credit-rating-case-study-2f6704816760",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-05-15",
+    "title": "Mean reversion in Finance: definitions",
+    "url": "https://lamatuk.medium.com/mean-reversion-in-finance-definitions-45242f19526f",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-05-11",
+    "title": "AI as a White Box in Finance",
+    "url": "https://lamatuk.medium.com/ai-as-a-white-box-in-finance-e6f3216aa7e7",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-04-27",
+    "title": "Rates Clustering",
+    "url": "https://lamatuk.medium.com/rates-clustering-611a3af9b294",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
     "date": "2018-04-27",
     "title": "Intelligence Amplification repository",
     "url": "https://github.com/gllamat/Intelligence-Amplification",
@@ -409,10 +441,50 @@
   },
   {
     "date": "2018-04-25",
+    "title": "Trading Mean Reversion",
+    "url": "https://lamatuk.medium.com/trading-mean-reversion-1493ba10460f",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-04-25",
     "title": "Mean Reversion repository",
     "url": "https://github.com/gllamat/MeanReversion",
     "kind": "Historical repository",
     "date_note": "Repository created",
+    "preview": ""
+  },
+  {
+    "date": "2018-04-25",
+    "title": "Finding Mean Reverting Signals (part 2)",
+    "url": "https://lamatuk.medium.com/finding-mean-reverting-signals-part-2-dac1350aac16",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-04-25",
+    "title": "Finding Mean Reverting Signals (part 1)",
+    "url": "https://lamatuk.medium.com/finding-mean-reverting-signals-part-1-43c1b7f9797a",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-03-09",
+    "title": "Writing like Cervantes",
+    "url": "https://lamatuk.medium.com/writing-like-cervantes-61a63c964d82",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-02-01",
+    "title": "Blockchain myths",
+    "url": "https://lamatuk.medium.com/blockchain-myths-831b72e61dcd",
+    "kind": "Medium article",
+    "date_note": "Published",
     "preview": ""
   }
 ]
