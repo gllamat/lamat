@@ -12,3 +12,8 @@ Issue #36 remains open: a second owner-controlled backup, restoration test, righ
 ## Interactive chart recovery, 18 November 2026
 
 A comparison of published post HTML against exact paths in the media export identified 52 referenced HTML files absent from that ZIP, affecting eight articles. All 52 were retrieved from the existing site into private storage; a private manifest records their source URLs, related articles, sizes and SHA-256 hashes. A second pass matched all 52 local file hashes. These checks establish local byte integrity, not functional restoration, completeness of all dependencies, rights to republish or the existence of an independent backup. Verify the recovered interactive content and any dependencies in an isolated restoration before migration.
+
+
+## Published article reconciliation, 18 November 2026
+
+The owner export contains 15 published posts; each exactly matches a Lamat blog entry in the current archive by URL, title and local publication date. Requests to all 15 current URLs returned HTTP 200 and contained the expected title in the response. This is a dated availability check, not verification of full body, media, interactive behaviour or rights. A private per-article map records explicit upload references and their presence in the media ZIP or the separately recovered files; all identified upload references have a path match. Dynamic resources, alternate versions, pages and other content require separate review. Destinations, redirects, rights, an independent backup and restoration remain unapproved or untested.
