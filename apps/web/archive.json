@@ -301,7 +301,13 @@
     "url": "https://lamatuk.medium.com/trading-mean-reversion-d72ced0d06a",
     "kind": "Medium article",
     "date_note": "Published",
-    "preview": "The full series."
+    "preview": "The full series.",
+    "related_links": [
+      {
+        "url": "https://www.linkedin.com/pulse/trading-mean-reversion-full-series-gerardo-lemus",
+        "label": "Related LinkedIn version (2018-04-25)"
+      }
+    ]
   },
   {
     "date": "2019-04-25",
@@ -440,6 +446,14 @@
     "preview": ""
   },
   {
+    "date": "2018-04-27",
+    "title": "Intelligence Amplification in Finance",
+    "url": "https://www.linkedin.com/pulse/intelligence-amplification-finance-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
     "date": "2018-04-25",
     "title": "Trading Mean Reversion",
     "url": "https://lamatuk.medium.com/trading-mean-reversion-1493ba10460f",
@@ -480,10 +494,232 @@
     "preview": ""
   },
   {
+    "date": "2018-03-06",
+    "title": "Kelly criterion for multiple simultaneous events.",
+    "url": "https://www.linkedin.com/pulse/kelly-criterion-multiple-simultaneous-events-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-03-05",
+    "title": "Another poll bites the dust: Italy",
+    "url": "https://www.linkedin.com/pulse/another-poll-bites-dust-italy-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-02-07",
+    "title": "More Blockchain myths",
+    "url": "https://www.linkedin.com/pulse/more-blockchain-myths-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
     "date": "2018-02-01",
     "title": "Blockchain myths",
     "url": "https://lamatuk.medium.com/blockchain-myths-831b72e61dcd",
     "kind": "Medium article",
+    "date_note": "Published",
+    "preview": "",
+    "related_links": [
+      {
+        "url": "https://www.linkedin.com/pulse/blockchain-myths-gerardo-lemus",
+        "label": "Related LinkedIn version (2018-02-01)"
+      }
+    ]
+  },
+  {
+    "date": "2018-01-31",
+    "title": "How I maximise my Sharpe Ratio for a mean-reverting strategy (2nd part)",
+    "url": "https://www.linkedin.com/pulse/how-i-maximise-my-sharpe-ratio-mean-reverting-strategy-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-01-17",
+    "title": "SDR and FX consensus levels",
+    "url": "https://www.linkedin.com/pulse/sdr-fx-consensus-levels-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-10-17",
+    "title": "Trade Simulator",
+    "url": "https://www.linkedin.com/pulse/trade-simulator-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-10-17",
+    "title": "Swap Data Repository Monitor",
+    "url": "https://www.linkedin.com/pulse/swap-data-repository-monitor-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-07-20",
+    "title": "Italexit: Twitter versus Polls",
+    "url": "https://www.linkedin.com/pulse/italexit-twitter-versus-polls-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-07-13",
+    "title": "Italian Poll Dashboard",
+    "url": "https://www.linkedin.com/pulse/italian-poll-dashboard-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-07-12",
+    "title": "Italian polls revisited",
+    "url": "https://www.linkedin.com/pulse/italian-polls-revisited-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-07-10",
+    "title": "Swap Data Repository",
+    "url": "https://www.linkedin.com/pulse/swap-data-repository-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-06-22",
+    "title": "Lies, damned lies and statistics in the age of twitter: the Italian job",
+    "url": "https://www.linkedin.com/pulse/lies-damned-statistics-age-twitter-italian-job-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-03-28",
+    "title": "Lies, damned lies and statistics in the age of twitter.",
+    "url": "https://www.linkedin.com/pulse/lies-damned-statistics-age-twitter-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-03-16",
+    "title": "Nexit: off",
+    "url": "https://www.linkedin.com/pulse/nexit-off-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-03-14",
+    "title": "Lies, damned lies and statistics in the age of twitter (E-1).",
+    "url": "https://www.linkedin.com/pulse/lies-damned-statistics-age-twitter-e-1-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-03-09",
+    "title": "Lies, damned lies and statistics in the age of twitter (3).",
+    "url": "https://www.linkedin.com/pulse/lies-damned-statistics-age-twitter-3-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-03-07",
+    "title": "Frexit and the polls",
+    "url": "https://www.linkedin.com/pulse/frexit-polls-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-03-02",
+    "title": "Are the markets (still) overpricing a Le Pen win ? (3)",
+    "url": "https://www.linkedin.com/pulse/markets-still-overpricing-le-pen-win-3-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-28",
+    "title": "Next2Exit: Who else is leaving the EU? The NExit case.",
+    "url": "https://www.linkedin.com/pulse/next2exit-who-else-leaving-eu-nexit-case-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-21",
+    "title": "Are the markets overpricing a Le Pen victory?",
+    "url": "https://www.linkedin.com/pulse/markets-overpricing-le-pen-victory-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-15",
+    "title": "Alternative Data",
+    "url": "https://www.linkedin.com/pulse/alternative-data-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-10",
+    "title": "Investing with the Kelly criterion (II)",
+    "url": "https://www.linkedin.com/pulse/investing-kelly-criterion-ii-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-08",
+    "title": "Prediction markets",
+    "url": "https://www.linkedin.com/pulse/prediction-markets-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-07",
+    "title": "Estimating probabilities from polls",
+    "url": "https://www.linkedin.com/pulse/estimating-probabilities-from-polls-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2017-02-02",
+    "title": "Investing with the Kelly criterion",
+    "url": "https://www.linkedin.com/pulse/investing-kelly-criterion-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2016-09-21",
+    "title": "Alpha Testers wanted",
+    "url": "https://www.linkedin.com/pulse/alpha-testers-wanted-gerardo-lemus",
+    "kind": "LinkedIn article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2015-06-04",
+    "title": "Fintech panel discussion",
+    "url": "https://www.linkedin.com/pulse/fintech-panel-discussion-gerardo-lemus",
+    "kind": "LinkedIn article",
     "date_note": "Published",
     "preview": ""
   }

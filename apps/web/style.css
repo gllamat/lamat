@@ -8,3 +8,7 @@
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.archive-item .archive-related{grid-column:2;margin-top:-16px}
+.archive-item .archive-related a{display:inline-block;font:inherit;font-size:13px;line-height:1.5;text-decoration:underline}
+@media(max-width:760px){.archive-item .archive-related{grid-column:1;margin-top:0}}
