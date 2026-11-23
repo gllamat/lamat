@@ -57,5 +57,17 @@ class KellyTests(unittest.TestCase):
             grid_search([Scenario(1., (0.,) * 8)], steps=100)
 
 
+class FiniteHorizonKellyTests(unittest.TestCase):
+    def test_flat_outcome_and_analytical_optimum(self):
+        scenarios = (Scenario(.4, (1.0,)), Scenario(.2, (-1.0,)),
+                     Scenario(.4, (0.0,)))
+        fractions, growth = grid_search(scenarios, steps=30)
+        self.assertAlmostEqual(fractions[0], 1 / 3)
+        self.assertGreater(growth, expected_log_growth(scenarios, (0.0,)))
+        self.assertGreater(growth, expected_log_growth(scenarios, (.3,)))
+        self.assertGreater(growth, expected_log_growth(scenarios, (.4,)))
+        self.assertAlmostEqual(growth, .4 * math.log(4 / 3) + .2 * math.log(2 / 3))
+
+
 if __name__ == '__main__':
     unittest.main()
