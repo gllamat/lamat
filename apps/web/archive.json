@@ -275,7 +275,13 @@
     "url": "https://lamatuk.com/2020/04/07/example-post/",
     "kind": "Lamat blog",
     "date_note": "Published",
-    "preview": ""
+    "preview": "",
+    "related_links": [
+      {
+        "url": "https://medium.com/@lamatuk/why-financial-time-series-lstm-prediction-fails-4d1486d336e0",
+        "label": "Related Medium version (2018-06-04)"
+      }
+    ]
   },
   {
     "date": "2020-04-07",
@@ -283,7 +289,13 @@
     "url": "https://lamatuk.com/2020/04/07/example-post-2/",
     "kind": "Lamat blog",
     "date_note": "Published",
-    "preview": ""
+    "preview": "",
+    "related_links": [
+      {
+        "url": "https://medium.com/@lamatuk/calling-ais-bluff-9ef275943168",
+        "label": "Related Medium version (2018-05-22)"
+      }
+    ]
   },
   {
     "date": "2020-04-07",
