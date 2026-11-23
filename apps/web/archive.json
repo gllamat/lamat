@@ -221,7 +221,13 @@
     "url": "https://lamatuk.com/2021/01/29/sentiment-analysis-in-finance/",
     "kind": "Lamat blog",
     "date_note": "Published",
-    "preview": ""
+    "preview": "",
+    "related_links": [
+      {
+        "url": "https://lamatuk.medium.com/sentiment-analysis-in-finance-a4b3016a9fc0",
+        "label": "Related Medium version (2018-05-16; later updated)"
+      }
+    ]
   },
   {
     "date": "2021-01-26",
