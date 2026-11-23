@@ -12,3 +12,11 @@
 .archive-item .archive-related{grid-column:2;margin-top:-16px}
 .archive-item .archive-related a{display:inline-block;font:inherit;font-size:13px;line-height:1.5;text-decoration:underline}
 @media(max-width:760px){.archive-item .archive-related{grid-column:1;margin-top:0}}
+
+/* Keep content readable at very narrow effective widths and high zoom. */
+@media (max-width: 280px) {
+  h1, h2, h3 { overflow-wrap: anywhere; }
+  h1 { font-size: clamp(32px, 15vw, 42px); }
+  .hero-actions { flex-wrap: wrap; }
+  .art-top, .art-bottom { flex-wrap: wrap; gap: 8px; }
+}
