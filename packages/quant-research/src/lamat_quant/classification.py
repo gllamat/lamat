@@ -18,7 +18,7 @@ class BinaryMetrics:
 
 def binary_metrics(actual: Sequence[int], predicted: Sequence[int]) -> BinaryMetrics:
     """Evaluate binary labels; undefined ratios are None, never zero by assumption."""
-    if not actual or len(actual) != len(predicted):
+    if len(actual) == 0 or len(actual) != len(predicted):
         raise ValueError("actual and predicted must have equal, nonzero length")
     if any(x not in (0, 1) for x in (*actual, *predicted)):
         raise ValueError("labels must be 0 or 1")
