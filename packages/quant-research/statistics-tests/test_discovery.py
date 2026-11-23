@@ -34,6 +34,22 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(fit.transform(self.test[:1]).shape, (1, 3))
         self.assertEqual(fit_pair(self.train[:, :2]).spread(self.test[:1, :2]).shape, (1,))
 
+    def test_pca_components_are_ordered_by_variance_not_input_column(self):
+        # Orthogonal centered columns with variances in the order 9, 1, 4.
+        # This catches selecting an unsorted covariance eigenvector by position.
+        patterns = np.array([[1, 1, 1], [1, -1, -1], [-1, 1, -1], [-1, -1, 1]])
+        sample = np.tile(patterns * [3, 1, 2], (5, 1))
+        fit = fit_pca(sample)
+        scores = fit.transform(sample)
+        variances = np.var(scores, axis=0)
+        np.testing.assert_allclose(variances, [9, 4, 1], atol=1e-12)
+        np.testing.assert_allclose(fit.explained_ratio, np.array([9, 4, 1]) / 14, atol=1e-12)
+        # Compare axes up to sign: eigenvector direction is not sign-identified.
+        np.testing.assert_allclose(np.abs(fit.components), np.eye(3)[[0, 2, 1]], atol=1e-12)
+        permuted = fit_pca(sample[:, [1, 0, 2]])
+        np.testing.assert_allclose(permuted.explained_ratio, fit.explained_ratio, atol=1e-12)
+        np.testing.assert_allclose(np.abs(permuted.components), np.eye(3)[[1, 2, 0]], atol=1e-12)
+
     def test_johansen_finds_common_trend_in_synthetic_sample(self):
         result = johansen_summary(self.train)
         self.assertEqual(len(result['trace']), 3)
