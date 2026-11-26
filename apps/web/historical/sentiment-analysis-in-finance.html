@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Historical writing from Lamat.">
+  <title>Sentiment Analysis in Finance — Lamat</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="../index.html" aria-label="Lamat home"><img src="../assets/lamat-logo-transparent.png" alt="" width="42" height="42"><span>LAMAT<small>DATA SCIENCE APPLIED TO FINANCE</small></span></a>
+    <nav aria-label="Main navigation"><a href="../index.html">Home</a><a href="../index.html#work">Work &amp; Services</a><a href="../index.html#approach">Approach</a><a href="../archive.html">Historical Archive</a><a href="../index.html#about">About</a><a class="nav-contact" href="../index.html#contact">Contact</a></nav>
+  </header>
+  <main id="main" class="wrap archive-main">
+    <div class="archive-hero"><p class="eyebrow">HISTORICAL RESEARCH</p><h1>Sentiment Analysis in Finance</h1><p><time datetime="2021-01-29">2021-01-29</time></p><p class="archive-note">This historical article is reproduced from the original export. Some images and interactive elements are unavailable in this edition.</p></div>
+    <article class="historical-article">
+<p>(update January 29, 2021 — after <a href="https://www.independent.co.uk/news/business/gamestop-share-price-reddit-hedge-fund-melvin-capital-b1793543.html">Reddit users claim victory as $13bn hedge fund capitulates on ..</a>) I added a <strong>false negative</strong> example — see the last colaboratory notebook below — and be careful when using off-the-shelf code!</p>
+
+
+
+<p>A very hyped use of AI in Finance comes from the application of Sentiment Analysis as a factor to predict the future price of a security.</p>
+
+
+
+<p>Below I will explain some of the basics and caveats of using it in a financial context.</p>
+
+
+
+<p>Sentiment analysis can be defined as:</p>
+
+
+
+<blockquote><p>&quot;<em>Sentiment analysis, or opinion mining, is an active area of study in the field of natural language processing that analyzes people&#x27;s opinions, sentiments, evaluations, attitudes, and emotions via the<strong> computational treatment</strong> of subjectivity in text. </em>&quot;</p></blockquote>
+
+
+
+<p>A simple introduction to it can be found in <a href="https://www.forbes.com/sites/kumesharoomoogan/2015/08/06/how-quant-traders-use-sentiment-to-get-an-edge-on-the-market/#5a38018d4b5d">&quot;How Quant Traders Use Sentiment To Get An Edge On The Market&quot;</a>, and typical academic papers explaining in full detail the process are <a href="https://arxiv.org/pdf/1010.3003.pdf">&quot;Twitter mood predicts the stock market.&quot;</a> and <a href="http://cs229.stanford.edu/proj2011/GoelMittal-StockMarketPredictionUsingTwitterSentimentAnalysis.pdf">&quot;Stock Prediction Using Twitter Sentiment Analysis&quot;</a>.</p>
+
+
+
+<p>The basic idea is the following:</p>
+
+
+
+<ul><li>convert a pipeline text sources (news, twitters, posts) into one or many <strong>quantitative</strong> (numerical) values,</li><li>feed the above values into a complex model (classical econometrics or newly developed neural networks) as input to predict the price of a security.</li></ul>
+
+
+
+<p>If you did open one of the academic papers, you would have been drowned in jargon, but by now big companies like Bloomberg and new companies like RavenPack have jumped on the bandwagon and now provide Sentiment Analysis indices as utilities: <a href="https://www.bloomberg.com/professional/blog/can-get-edge-trading-news-sentiment-data/">&quot;How you can get an edge by trading on news sentiment data&quot;</a> and <a href="https://www.ravenpack.com/research/abnormal-media-attention-impacts-stock-returns/">&quot;Abnormal Media Attention Impacts Stock Returns&quot;</a>.</p>
+
+
+
+<p>As in the previous posts, on one hand I prefer to produce <a href="https://en.wikipedia.org/wiki/Reproducibility#Reproducible_research">reproducible research</a> in the form of jupyter notebooks that actually run (instead of pdf papers like the links above), but in this case the complexity is such that I only will illustrate basic concepts.</p>
+
+
+
+<p></p>
+
+
+
+<p>(An example with the full code is availabe at this <a href="https://gist.github.com/gllamat/ae758bc22f2cb5de621d893ba7b6769e">colaboratory</a><a href="https://colab.research.google.com/gist/gjlr2000/da7142d7fff9ddebadcd3d31a15af18b/sentimentanalysisfinance.ipynb"> notebook</a>)</p>
+
+
+
+<h2>Some issues with Sentiment analysis in Finance</h2>
+
+
+
+<p>It turns out that this off-the-shelf tool is not great for financial results (and that is only after checking 2 simple cases). Some additional problems:</p>
+
+
+
+<ul><li>Sentiment analysis is very &#x27;domain specific&#x27; (academic talk to say that a set of tools only works in a pre-defined context - so you need to find the correct one for your applications)</li><li>Regime changes can happen - if you keep using &#x27;old&#x27; models for current data you will miss opportunities: think what happens if you use use pre-2013 models (before <a href="https://litecoinalliance.org/hodl-on-for-dear-life-the-history-and-meaning-of-hodl/">HODL</a> for cryptocurrencies entered the cybersphere) - in fact, if you look at Vaders <a href="https://www.kaggle.com/nltkdata/vader-lexicon/data">lexicon data</a> you will not find &#x27;hodl&#x27;.</li><li>as the &#x27;Jio&#x27; example shows, a piece of news can be very negative <em>but</em> the price impact can be muted (that particular piece of news is very negative but is also a laggard indicator as the price already tanked).</li></ul>
+
+
+
+<p>Instead, we can:</p>
+
+
+
+<h3>Create our own sentiment tool.</h3>
+
+
+
+<p>The Vader guys:</p>
+
+
+
+<blockquote><p>&quot; collected intensity ratings on each of our candidate lexical features from ten independent human raters (for a total of 90,000+ ratings).&quot;</p></blockquote>
+
+
+
+<p>Instead of using their &quot;lexical features&quot;, we would have to design and implement a system to collect the ratings of something close to 90k (the more the merrier) in a business context (create a user interface). I could not find a publicly available corpus of annotated financial news (financial news with a score).</p>
+
+
+
+<p>Also, if we are training in our own we could change the numerical measure to reflect directly the impact on the stock.</p>
+
+
+
+<p><strong>Connecting to relevant (and timely) news pipeline:</strong> assuming the sentiment tool is ok, we would need to connect it to a set of reliable news and relevant comments (no fake news, or add a fake news analyser).</p>
+
+
+
+<h3>Use Professional sentiment indicators</h3>
+
+
+
+<p>I mentioned above some sentiment analysis providers. The good thing is that the platforms handle the whole data connection. Unfortunately, their systems are proprietary (blackest black box of all):</p>
+
+
+
+<ul><li>so we cannot test whether their sentiment tool is finely tuned to our specific financial topics (or generic business topics),</li><li>we cannot control how often they update them,</li><li>are available to competitors, hence the alpha they can provide will diminish in time.</li></ul>
+</article>
+  </main>
+  <footer><div class="wrap footer-inner"><a href="../archive.html">Historical archive</a><a href="mailto:contact@lamat-qanil.com">Get in touch</a></div></footer>
+</body></html>
