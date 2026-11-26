@@ -1,0 +1,364 @@
+{
+  "redirects": [
+    {
+      "source": "/2020/04/07/example-post",
+      "destination": "https://medium.com/@lamatuk/why-financial-time-series-lstm-prediction-fails-4d1486d336e0",
+      "permanent": true
+    },
+    {
+      "source": "/2020/04/07/example-post-2",
+      "destination": "https://medium.com/@lamatuk/calling-ais-bluff-9ef275943168",
+      "permanent": true
+    },
+    {
+      "source": "/2020/04/07/example-post-3",
+      "destination": "https://lamatuk.medium.com/ai-in-finance-cutting-through-the-hype-with-case-studies-f361518b00d4",
+      "permanent": true
+    },
+    {
+      "source": "/2020/05/16/data-science-vs-european-regulations",
+      "destination": "https://lamatuk.medium.com/data-science-vs-european-regulations-30c7022ca1f5",
+      "permanent": true
+    },
+    {
+      "source": "/2020/11/29/market-flies",
+      "destination": "/historical/market-flies.html",
+      "permanent": true
+    },
+    {
+      "source": "/2020/12/02/financial-data-mining-public-2",
+      "destination": "/historical/financial-data-mining-public-2.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/01/26/option-networking",
+      "destination": "/historical/option-networking.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/01/29/sentiment-analysis-in-finance",
+      "destination": "/historical/sentiment-analysis-in-finance.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/02/12/reddit-analysis",
+      "destination": "https://lamatuk.medium.com/reddit-analysis-b42c8cbaf4f3",
+      "permanent": true
+    },
+    {
+      "source": "/2021/03/02/etf-component-liquidity",
+      "destination": "/historical/etf-component-liquidity.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/07/07/companies-house-and-heaven",
+      "destination": "/historical/companies-house-and-heaven.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/09/22/inflation-swaps",
+      "destination": "/historical/inflation-swaps.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/12/13/agnostic-crypto-allocation",
+      "destination": "/historical/agnostic-crypto-allocation.html",
+      "permanent": true
+    },
+    {
+      "source": "/2021/12/14/mexican-swaps",
+      "destination": "/historical/mexican-swaps.html",
+      "permanent": true
+    },
+    {
+      "source": "/2022/01/21/swaptions",
+      "destination": "/historical/swaptions.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_EUR_INF_15_20.html",
+      "destination": "/charts/ASYPC_EUR_INF_15_20.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_EUR_INF_1_2.html",
+      "destination": "/charts/ASYPC_EUR_INF_1_2.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_EUR_INF_30.html",
+      "destination": "/charts/ASYPC_EUR_INF_30.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_EUR_INF_5_10.html",
+      "destination": "/charts/ASYPC_EUR_INF_5_10.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_GBP_INF_1.html",
+      "destination": "/charts/ASYPC_GBP_INF_1.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_GBP_INF_20_30.html",
+      "destination": "/charts/ASYPC_GBP_INF_20_30.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_GBP_INF_5_10.html",
+      "destination": "/charts/ASYPC_GBP_INF_5_10.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_MXN_2.0_10.0.html",
+      "destination": "/charts/ASYPC_MXN_2.0_10.0.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_MXN_SWAPS_EDGAR.html",
+      "destination": "/charts/ASYPC_MXN_SWAPS_EDGAR.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_MXN_SWAPS_SDR_EDGAR.html",
+      "destination": "/charts/ASYPC_MXN_SWAPS_SDR_EDGAR.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_MXN_whole.html",
+      "destination": "/charts/ASYPC_MXN_whole.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_CPI_EDGAR.html",
+      "destination": "/charts/ASYPC_USD_CPI_EDGAR.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_INF_1_2.html",
+      "destination": "/charts/ASYPC_USD_INF_1_2.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_INF_30.html",
+      "destination": "/charts/ASYPC_USD_INF_30.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_INF_5_10.html",
+      "destination": "/charts/ASYPC_USD_INF_5_10.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_SWAPTION_DTCC_EDGAR.html",
+      "destination": "/charts/ASYPC_USD_SWAPTION_DTCC_EDGAR.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_SWAPTION_EDGAR.html",
+      "destination": "/charts/ASYPC_USD_SWAPTION_EDGAR.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_SWAPTION_EDGAR_FLOW.html",
+      "destination": "/charts/ASYPC_USD_SWAPTION_EDGAR_FLOW.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/ASYPC_USD_Swtn_10.html",
+      "destination": "/charts/ASYPC_USD_Swtn_10.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/EUR_spread_trades_002_003.html",
+      "destination": "/charts/EUR_spread_trades_002_003.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/EUR_spread_trades_003_004_005.html",
+      "destination": "/charts/EUR_spread_trades_003_004_005.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/EUR_spread_trades_005_006_007.html",
+      "destination": "/charts/EUR_spread_trades_005_006_007.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/EUR_spread_trades_005_010.html",
+      "destination": "/charts/EUR_spread_trades_005_010.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/EUR_spread_trades_008_009_010.html",
+      "destination": "/charts/EUR_spread_trades_008_009_010.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/EUR_spread_trades_010_030.html",
+      "destination": "/charts/EUR_spread_trades_010_030.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_fig_count.html",
+      "destination": "/charts/IHYG_fig_count.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_fig_hi.html",
+      "destination": "/charts/IHYG_fig_hi.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_fig_lo.html",
+      "destination": "/charts/IHYG_fig_lo.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_fig_no.html",
+      "destination": "/charts/IHYG_fig_no.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_table_fund.html",
+      "destination": "/charts/IHYG_table_fund.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_table_hi.html",
+      "destination": "/charts/IHYG_table_hi.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_table_lo.html",
+      "destination": "/charts/IHYG_table_lo.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_table_no.html",
+      "destination": "/charts/IHYG_table_no.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/IHYG_table_sec.html",
+      "destination": "/charts/IHYG_table_sec.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/MXNUSD_edgar.html",
+      "destination": "/charts/MXNUSD_edgar.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/Reddit_Stocks.html",
+      "destination": "/charts/Reddit_Stocks.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/Reddit_Stocks_Form13.html",
+      "destination": "/charts/Reddit_Stocks_Form13.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/Reddit_Stocks_Titles.html",
+      "destination": "/charts/Reddit_Stocks_Titles.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/TopFX_200_net_edgar.html",
+      "destination": "/charts/TopFX_200_net_edgar.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/TopFX_200_pur_edgar.html",
+      "destination": "/charts/TopFX_200_pur_edgar.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/TopFX_200_wri_edgar.html",
+      "destination": "/charts/TopFX_200_wri_edgar.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USDBRL_edgar_dtcc.html",
+      "destination": "/charts/USDBRL_edgar_dtcc.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USDBRL_network.html",
+      "destination": "/charts/USDBRL_network.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USDMXN_edgar_dtcc.html",
+      "destination": "/charts/USDMXN_edgar_dtcc.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USDMXN_network_purchased.html",
+      "destination": "/charts/USDMXN_network_purchased.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USDMXN_network_written.html",
+      "destination": "/charts/USDMXN_network_written.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_spread_trades_002_005.html",
+      "destination": "/charts/USD_spread_trades_002_005.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_spread_trades_002_010.html",
+      "destination": "/charts/USD_spread_trades_002_010.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_spread_trades_005_010.html",
+      "destination": "/charts/USD_spread_trades_005_010.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_spread_trades_005_010_030.html",
+      "destination": "/charts/USD_spread_trades_005_010_030.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_spread_trades_010_030.html",
+      "destination": "/charts/USD_spread_trades_010_030.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_term_structure.html",
+      "destination": "/charts/USD_term_structure.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/BRLUSD_edgar.html",
+      "destination": "/charts/BRLUSD_edgar.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/USD_spread_trades_005_030.html",
+      "destination": "/charts/USD_spread_trades_005_030.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/Reddit_Stocks_Form13_month.html",
+      "destination": "/charts/Reddit_Stocks_Form13_month.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/Reddit_Stocks_TopTen.html",
+      "destination": "/charts/Reddit_Stocks_TopTen.html",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2022/01/Crypto-White-Paper.pdf",
+      "destination": "/assets/Crypto-White-Paper.pdf",
+      "permanent": true
+    }
+  ]
+}
