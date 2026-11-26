@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Historical writing from Lamat.">
+  <title>Swaptions — Lamat</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="../index.html" aria-label="Lamat home"><img src="../assets/lamat-logo-transparent.png" alt="" width="42" height="42"><span>LAMAT<small>DATA SCIENCE APPLIED TO FINANCE</small></span></a>
+    <nav aria-label="Main navigation"><a href="../index.html">Home</a><a href="../index.html#work">Work &amp; Services</a><a href="../index.html#approach">Approach</a><a href="../archive.html">Historical Archive</a><a href="../index.html#about">About</a><a class="nav-contact" href="../index.html#contact">Contact</a></nav>
+  </header>
+  <main id="main" class="wrap archive-main">
+    <div class="archive-hero"><p class="eyebrow">HISTORICAL RESEARCH</p><h1>Swaptions</h1><p><time datetime="2022-01-21">2022-01-21</time></p><p class="archive-note">This historical article is reproduced from the original export. Some images and interactive elements are unavailable in this edition.</p></div>
+    <article class="historical-article">
+<p>There are multiple publicly available data repositories compiling data from USD financial institutions, like DTCC (anonymized trade information with up to 15 minute lag) and SEC (full end of quarter asset disclosure with up to 3 months lag).<br></p>
+
+
+
+<p>For example, the population of USD swaptions available in SEC reports is:</p>
+
+
+
+<figure class="historical-chart"><iframe loading="lazy" sandbox="allow-scripts" title="Historical chart: Swaptions — ASYPC USD SWAPTION EDGAR" src="../charts/ASYPC_USD_SWAPTION_EDGAR.html"></iframe><figcaption><a href="../charts/ASYPC_USD_SWAPTION_EDGAR.html">Open chart in a new page</a></figcaption></figure>
+
+
+
+<div>
+<div><a href="../charts/ASYPC_USD_SWAPTION_EDGAR.html">Full Plot</a></div>
+</div>
+
+
+
+<p>From the data further analysis can be done, for example a league table of most used counterparties:</p>
+
+
+
+<figure class="historical-chart"><iframe loading="lazy" sandbox="allow-scripts" title="Historical chart: Swaptions — ASYPC USD SWAPTION EDGAR FLOW" src="../charts/ASYPC_USD_SWAPTION_EDGAR_FLOW.html"></iframe><figcaption><a href="../charts/ASYPC_USD_SWAPTION_EDGAR_FLOW.html">Open chart in a new page</a></figcaption></figure>
+
+
+
+<div>
+<div><a href="../charts/ASYPC_USD_SWAPTION_EDGAR_FLOW.html">Full Plot</a></div>
+</div>
+
+
+
+<p>(although unfortunately the data is not fully consistent)</p>
+
+
+
+<p>DTCC data is up to date but it only shows the reporting entity position (usually a swap dealer) without identifying the counterparties nor whether it is a purchase or sale. </p>
+
+
+
+<p>For example, we can show the USD swaptions with a term of 10y that expire in the next 3 months (which were traded in the last 6 months):</p>
+
+
+
+<figure class="historical-chart"><iframe loading="lazy" sandbox="allow-scripts" title="Historical chart: Swaptions — ASYPC USD Swtn 10" src="../charts/ASYPC_USD_Swtn_10.html"></iframe><figcaption><a href="../charts/ASYPC_USD_Swtn_10.html">Open chart in a new page</a></figcaption></figure>
+
+
+
+<div>
+<div><a href="../charts/ASYPC_USD_Swtn_10.html">Full Plot</a></div>
+</div>
+
+
+
+<p>PF - Payer, RF = Receiver, D- = straddle, with some &#x27;undefined&#x27; data</p>
+
+
+
+<p>Data from the SEC and DTCC can be cross checked, for instance by looking at DTCC trades that correspond to the published SEC positions:</p>
+
+
+
+<figure class="historical-chart"><iframe loading="lazy" sandbox="allow-scripts" title="Historical chart: Swaptions — ASYPC USD SWAPTION DTCC EDGAR" src="../charts/ASYPC_USD_SWAPTION_DTCC_EDGAR.html"></iframe><figcaption><a href="../charts/ASYPC_USD_SWAPTION_DTCC_EDGAR.html">Open chart in a new page</a></figcaption></figure>
+
+
+
+
+<div>
+<div><a href="../charts/ASYPC_USD_SWAPTION_DTCC_EDGAR.html">Full Plot</a></div>
+</div>
+
+
+
+<p>The analysis can be more powerful when combined with quantitative libraries to calculate the greeks, market historical information, and displayed in the preferred user interface (heatmats, barcharts)</p>
+</article>
+  </main>
+  <footer><div class="wrap footer-inner"><a href="../archive.html">Historical archive</a><a href="mailto:contact@lamat-qanil.com">Get in touch</a></div></footer>
+</body></html>

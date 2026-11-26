@@ -98,32 +98,32 @@
   {
     "date": "2022-01-21",
     "title": "Swaptions",
-    "url": "https://lamatuk.com/2022/01/21/swaptions/",
-    "kind": "Lamat blog",
+    "url": "historical/swaptions.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
   {
     "date": "2021-12-14",
     "title": "Mexican Swaps",
-    "url": "https://lamatuk.com/2021/12/14/mexican-swaps/",
-    "kind": "Lamat blog",
+    "url": "historical/mexican-swaps.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
   {
     "date": "2021-12-13",
     "title": "Agnostic Crypto Allocation",
-    "url": "https://lamatuk.com/2021/12/13/agnostic-crypto-allocation/",
-    "kind": "Lamat blog",
+    "url": "historical/agnostic-crypto-allocation.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
   {
     "date": "2021-09-22",
     "title": "Inflation Swaps",
-    "url": "https://lamatuk.com/2021/09/22/inflation-swaps/",
-    "kind": "Lamat blog",
+    "url": "historical/inflation-swaps.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
@@ -154,8 +154,8 @@
   {
     "date": "2021-07-07",
     "title": "Companies House and Heaven",
-    "url": "https://lamatuk.com/2021/07/07/companies-house-and-heaven/",
-    "kind": "Lamat blog",
+    "url": "historical/companies-house-and-heaven.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
@@ -178,8 +178,8 @@
   {
     "date": "2021-03-02",
     "title": "ETF component liquidity",
-    "url": "https://lamatuk.com/2021/03/02/etf-component-liquidity/",
-    "kind": "Lamat blog",
+    "url": "historical/etf-component-liquidity.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
@@ -194,8 +194,8 @@
   {
     "date": "2021-02-12",
     "title": "Reddit Analysis",
-    "url": "https://lamatuk.com/2021/02/12/reddit-analysis/",
-    "kind": "Lamat blog",
+    "url": "historical/reddit-analysis.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
@@ -218,8 +218,8 @@
   {
     "date": "2021-01-29",
     "title": "Sentiment Analysis in Finance",
-    "url": "https://lamatuk.com/2021/01/29/sentiment-analysis-in-finance/",
-    "kind": "Lamat blog",
+    "url": "historical/sentiment-analysis-in-finance.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": "",
     "related_links": [
@@ -232,24 +232,24 @@
   {
     "date": "2021-01-26",
     "title": "Option networking",
-    "url": "https://lamatuk.com/2021/01/26/option-networking/",
-    "kind": "Lamat blog",
+    "url": "historical/option-networking.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
   {
     "date": "2020-12-02",
     "title": "FX SDR-SEC",
-    "url": "https://lamatuk.com/2020/12/02/financial-data-mining-public-2/",
-    "kind": "Lamat blog",
+    "url": "historical/financial-data-mining-public-2.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
   {
     "date": "2020-11-29",
     "title": "Fixed Income SDR",
-    "url": "https://lamatuk.com/2020/11/29/market-flies/",
-    "kind": "Lamat blog",
+    "url": "historical/market-flies.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
   },
@@ -264,52 +264,10 @@
   {
     "date": "2020-05-16",
     "title": "Data Science vs European Regulations",
-    "url": "https://lamatuk.com/2020/05/16/data-science-vs-european-regulations/",
-    "kind": "Lamat blog",
+    "url": "historical/data-science-vs-european-regulations.html",
+    "kind": "Historical article",
     "date_note": "Published",
     "preview": ""
-  },
-  {
-    "date": "2020-04-07",
-    "title": "Why Financial Time Series LSTM Prediction fails",
-    "url": "https://lamatuk.com/2020/04/07/example-post/",
-    "kind": "Lamat blog",
-    "date_note": "Published",
-    "preview": "",
-    "related_links": [
-      {
-        "url": "https://medium.com/@lamatuk/why-financial-time-series-lstm-prediction-fails-4d1486d336e0",
-        "label": "Related Medium version (2018-06-04)"
-      }
-    ]
-  },
-  {
-    "date": "2020-04-07",
-    "title": "Calling AI’s bluff",
-    "url": "https://lamatuk.com/2020/04/07/example-post-2/",
-    "kind": "Lamat blog",
-    "date_note": "Published",
-    "preview": "",
-    "related_links": [
-      {
-        "url": "https://medium.com/@lamatuk/calling-ais-bluff-9ef275943168",
-        "label": "Related Medium version (2018-05-22)"
-      }
-    ]
-  },
-  {
-    "date": "2020-04-07",
-    "title": "AI in Finance: Cutting Through the Hype (With Case Studies)",
-    "url": "https://lamatuk.com/2020/04/07/example-post-3/",
-    "kind": "Lamat blog",
-    "date_note": "Published",
-    "preview": "",
-    "related_links": [
-      {
-        "url": "https://lamatuk.medium.com/ai-in-finance-cutting-through-the-hype-with-case-studies-f361518b00d4",
-        "label": "Related Medium version (2018-06-08; later updated)"
-      }
-    ]
   },
   {
     "date": "2019-07-29",
@@ -430,9 +388,33 @@
     "preview": ""
   },
   {
+    "date": "2018-06-08",
+    "title": "AI in Finance: Cutting Through the Hype (With Case Studies)",
+    "url": "https://lamatuk.medium.com/ai-in-finance-cutting-through-the-hype-with-case-studies-f361518b00d4",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
     "date": "2018-06-05",
     "title": "Explainable AI — a Credit Rating Case Study",
     "url": "https://lamatuk.medium.com/explaining-ai-a-credit-rating-case-study-2f6704816760",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-06-04",
+    "title": "Why Financial Time Series LSTM Prediction fails",
+    "url": "https://medium.com/@lamatuk/why-financial-time-series-lstm-prediction-fails-4d1486d336e0",
+    "kind": "Medium article",
+    "date_note": "Published",
+    "preview": ""
+  },
+  {
+    "date": "2018-05-22",
+    "title": "Calling AI’s bluff",
+    "url": "https://medium.com/@lamatuk/calling-ais-bluff-9ef275943168",
     "kind": "Medium article",
     "date_note": "Published",
     "preview": ""
